@@ -1,0 +1,5 @@
+https://developers.google.com/protocol-buffers/docs/pythontutorial
+1, get addressbook.proto
+2, protoc --python_out=./  addressbook.proto
+3, need use python3 import addressbook_pb2   python2 is not recgnize synatax keyword in addressbook_pb2
+4, use python3 to gen read.py and write.py
